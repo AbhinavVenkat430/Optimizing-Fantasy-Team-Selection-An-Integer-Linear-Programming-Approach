@@ -12,5 +12,5 @@ Utilizing retrospective data from past seasons, the model allows us to tackle th
 
 # Outcome
 
-The model consistently outperformed weekly winners with its team selections, accumulating 3872 points by the end of the season. This impressive score was 1096 points higher than the winner of the 2022/23 Fantasy Premier League season demonstrating its ability.
+The model consistently outperformed weekly winners with its team selections, accumulating 3872 points by the end of the season. This impressive score was 1096 points higher than the winner of the 2022/23 Fantasy Premier League season, demonstrating its ability.
 
