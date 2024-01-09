@@ -9,8 +9,9 @@ Given the significant impact of fantasy sports on sports consumption and economi
 # Research Questions
 Utilizing retrospective data from past seasons, the model allows us to tackle the following 
 problems –
-• What was the best-performing teams for each game week of the season?
-• What was the maximum possible score that was theoretically possible at the end of the 
+
+1. What was the best-performing teams for each game week of the season?
+2. What was the maximum possible score that was theoretically possible at the end of the 
 season?
 
 
