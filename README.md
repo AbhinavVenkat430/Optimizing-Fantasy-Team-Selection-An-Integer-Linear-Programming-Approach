@@ -1,6 +1,16 @@
 # Optimizing-Fantasy-Team-Selection-An-Integer-Linear-Programming-Approach
 Master's Thesis
-# Abstract 
-A fantasy sport league is an online game where participants assume the role of team managers, thoughtfully selecting real players to form their virtual teams. The allocation of points to each team is based on the actual performance of these selected players in real-life sports events. The primary goal for every manager is to conclude the season with the highest points possible, aiming for victory. Among the largest leagues globally is the Fantasy Premier League (FPL), which boasts an impressive participation ofapproximately 7 million players from around the world. The characteristics and rules of the FPL are thoroughly discussed, delving into the meticulous process 
-of player choice, scoring systems, and budget constraints that heavily influence the strategic decisions made by team managers. Building upon these valuable insights, a mixed-integer linear programming model is introduced, specifically designed to optimize team selection each week with the goal of achieving the maximum points possible. The model's construction involves the use of retrospective data from a season, allowing for precise mathematical determination of the best scoring team for each week.To demonstrate the model's practicality and effectiveness, data from the 2022/23 FPL season is utilized, and the model is executed on IBM ILOG CPLEX. The results obtained are thoroughly analysed 
-and discussed, presenting a clear showcase of the model's potential in real-world scenarios.
+# Objective & Impact
+Among the multitude of fantasy sports leagues, Fantasy Premier League (FPL) stands out as the largest and most prominent, boasting an extensive following of approximately 7 million participants worldwide. This fantasy league operates in tandem with the top-tier of English football, the English Premier League. FPL commands unparalleled attention and fervent engagement from football enthusiasts, transcending geographical boundaries. This dissertation seeks to conduct a comprehensive analysis and optimization of team selection in the context of fantasy football, with a specific emphasis on the Fantasy Premier League (FPL). The strategic decisions made by managers in assembling their fantasy teams are significantly shaped by various pivotal factors. These factors encompass guidelines for player selection, budgetary limitations that impose constraints on the total team cost, and the intricacies of scoring systems that attribute points based on players' performances, goals, assists, clean sheets, and other relevant criteria. The presence of such constraints poses intriguing challenges for FPL managers, compelling them to devise the most efficient and high-scoring teams on a week-to-week basis.
+To achieve this goal, a mixed-integer linear programming model is presented that enables us to formulate an innovative approach for generating and analysing retrospective results for any given FPL season. 
+
+Given the significant impact of fantasy sports on sports consumption and economic value, this study aims to shed light on the implications and challenges faced by fantasy team managers. By offering rigorous analysis and data-driven insights, the aim is to provide managerial recommendations to FPL managers that demonstrate the decisions they could have made to achieve the highest attainable score and enhance the overall FPL experience.
+
+# Research Questions
+Utilizing retrospective data from past seasons, the model allows us to tackle the following 
+problems –
+• What was the best-performing teams for each game week of the season?
+• What was the maximum possible score that was theoretically possible at the end of the 
+season?
+
+
