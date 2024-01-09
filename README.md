@@ -1,6 +1,6 @@
 # Optimizing-Fantasy-Team-Selection-An-Integer-Linear-Programming-Approach
-Master's Thesis -
-The CPLEX files include all the coding work done. The "Thesis Report" file has the full dissertation that earned a Distinction.
+
+The "Thesis Report" file has the full Master's dissertation that earned a Distinction. The CPLEX files include all the coding work done.
 
 # Objective & Impact
 Among the multitude of fantasy sports leagues, Fantasy Premier League (FPL) stands out as the largest and most prominent, boasting an extensive following of approximately 7 million participants worldwide. This fantasy league operates in tandem with the top-tier of English football, the English Premier League. FPL commands unparalleled attention and fervent engagement from football enthusiasts, transcending geographical boundaries. This dissertation seeks to conduct a comprehensive analysis and optimization of team selection in the context of fantasy football, with a specific emphasis on the Fantasy Premier League (FPL). The strategic decisions made by managers in assembling their fantasy teams are significantly shaped by various pivotal factors. These factors encompass guidelines for player selection, budgetary limitations that impose constraints on the total team cost, and the intricacies of scoring systems that attribute points based on players' performances, goals, assists, clean sheets, and other relevant criteria. The presence of such constraints poses intriguing challenges for FPL managers, compelling them to devise the most efficient and high-scoring teams on a week-to-week basis.
