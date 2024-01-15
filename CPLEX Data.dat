@@ -1,0 +1,29 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: Abhinav
+ * Creation Date: 16-Jun-2023 at 7:25:20 PM
+ *********************************************/
+//SETS
+SheetConnection FplGwData("FplGwData.xlsx");
+
+// set of players p
+P from SheetRead(FplGwData, "'PricePoints'!A2:A27");
+
+// set of postions q
+Q = {"GK", "DEF", "MID", "FWD"}; 
+
+players from SheetRead(FplGwData, "'PlayerData'!A2:B27");
+
+// points scored by player p in P in round r in R
+points from SheetRead(FplGwData, "'PricePoints'!F2:H27");
+
+// The price of player p in P in round r in R
+price from SheetRead(FplGwData, "'PricePoints'!C2:E27");
+
+
+Rounds = 3;
+X = 11; // Number of players whose scores count towards team score in each round
+B = 100.0; // Budget 100 million
+Q_max = [2,5,5,3]; // Number of each position Q to be selected
+T = 1;// trades per round
+T_total = 3; // Total transfers over season.
