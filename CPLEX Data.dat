@@ -1,0 +1,40 @@
+
+//SETS
+SheetConnection FplGwData("FINAL FPL DATA SET.xlsx");
+
+// set of players p
+P from SheetRead(FplGwData, "'Prices'!A2:A573");
+
+// set of postions q
+Q = {"GK", "DEF", "MID", "FWD"}; 
+
+
+// Number of matchdays
+Rounds = 37;
+
+// Players in each postion
+Q_GK from SheetRead(FplGwData, "'Positions'!A2:A57");
+Q_DEF from SheetRead(FplGwData, "'Positions'!B2:B209");
+Q_MID from SheetRead(FplGwData, "'Positions'!C2:C244"); 
+Q_FWD from SheetRead(FplGwData, "'Positions'!D2:D61"); 
+
+
+
+// points scored by player p in P in round r in R
+points from SheetRead(FplGwData, "'Points'!F2:AP573");
+
+// The price of player p in P in round r in R
+price from SheetRead(FplGwData, "'Prices'!C2:AM573");
+
+
+X = 11; // Number of players whose scores count towards team score in each round
+B = 100.0; // Budget 100 million
+Q_max = [2,5,5,3]; //  number of available spots (capacity) of position q in Q
+Q_Points = [1,4,4,2]; //number of each position allowed to score points
+T = 1;// trades per round
+T_total = 37; // Total transfers over season.
+
+
+x to SheetWrite(FplGwData, "'x'!E2:AO573");
+y to SheetWrite(FplGwData, "'y'!E2:AO573");
+C to SheetWrite(FplGwData, "'C'!E2:AO573");
